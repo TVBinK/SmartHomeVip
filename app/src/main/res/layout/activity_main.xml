@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Hiển thị nhiệt độ -->
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhiệt độ: 25°C"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Hiển thị độ ẩm -->
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Độ ẩm: 60%"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Các nút điều khiển -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <!-- Nút Bật/Tắt Đèn -->
+        <Button
+            android:id="@+id/lightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bật Đèn"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Nút Bật/Tắt Quạt -->
+        <Button
+            android:id="@+id/fanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bật Quạt"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Nút Mở/Đóng Cửa -->
+        <Button
+            android:id="@+id/doorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mở Cửa" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/voiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái cửa: Đóng"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp" />
+
+</LinearLayout>

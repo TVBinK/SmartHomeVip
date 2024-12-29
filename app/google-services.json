@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "700556491614",
+    "firebase_url": "https://smart-home-52e19-default-rtdb.firebaseio.com",
+    "project_id": "smart-home-52e19",
+    "storage_bucket": "smart-home-52e19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700556491614:android:ca7c71ef02179784026dcf",
+        "android_client_info": {
+          "package_name": "com.example.health_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUNCXXusHvEcCKQD4XBqxfSyinOraU-VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700556491614:android:0012198459d27d4b026dcf",
+        "android_client_info": {
+          "package_name": "com.example.smarthome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUNCXXusHvEcCKQD4XBqxfSyinOraU-VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
